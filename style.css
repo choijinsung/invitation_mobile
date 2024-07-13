@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+root {
+
+}
+
+.bg {
+  min-height: 100vh;
+  background-image: url("./images/bg_web.svg");
+  background-size: cover;
+}
+
+.test {
+  height: 5400px;
+}
+
+.test > p {
+  color: white;
+}
