@@ -14,10 +14,6 @@ root {
   background-size: cover;
 }
 
-.test {
-  height: 5400px;
-}
-
 .test > p {
   color: white;
 }
