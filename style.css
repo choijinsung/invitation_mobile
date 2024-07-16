@@ -4,16 +4,34 @@
   box-sizing: border-box;
 }
 
-root {
-
+:root {
+  --soft-white: #fffefc;
 }
 
 .bg {
   min-height: 100vh;
   background-image: url("./images/bg_web.svg");
   background-size: cover;
+  padding : 10% 5%;
+}
+
+.title {
+  text-align: center;
+  color: var(--soft-white);
+  font-size: 5vw;
+  font-family: "Diphylleia", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.test {
+  text-align: center;
+  padding-top : 10%;
 }
 
 .test > p {
-  color: white;
+  color: var(--soft-white);
+  font-family: "Diphylleia", serif;
+  font-weight: 400;
+  font-style: normal;
 }
