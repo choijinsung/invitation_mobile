@@ -19,7 +19,7 @@
 .title {
   text-align: center;
   color: var(--soft-white);
-  font-size: 5vw;
+  font-size: 6vw;
   font-family: "Diphylleia", serif;
   font-weight: 400;
   font-style: normal;
@@ -43,6 +43,10 @@
 }
 
 @media screen and (min-width : 768px) {
+  .title {
+    font-size: 4vw;
+  }
+
   .page {
     width: 50%;
     height: 75vw;
