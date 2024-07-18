@@ -31,8 +31,6 @@
   margin: 0 auto;
   margin-top: 10%;
   background-color: var(--soft-white);
-  text-align: center;
-  padding-top: 5%;
 }
 
 .page > p {
@@ -40,6 +38,23 @@
   font-family: "Diphylleia", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro_date_container {
+  height: 100%;
+}
+
+.intro_content_container {
+  height: 100%;
+}
+
+.intro_img_container > img {
+  width: 100%;
 }
 
 @media screen and (min-width : 768px) {
