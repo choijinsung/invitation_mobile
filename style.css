@@ -64,16 +64,8 @@
 }
 
 .intro_date_container i {
-  font-size: 5vw;
+  font-size: 3.75vw;
   color: var(--deep-green);
-}
-
-.intro_content_container {
-  height: 0;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 
 .intro_img_container {
