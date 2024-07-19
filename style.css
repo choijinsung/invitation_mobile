@@ -34,7 +34,7 @@
   background-color: var(--soft-white);
 }
 
-.page > p {
+.page p {
   color: var(--soft-black);
   font-family: "Diphylleia", serif;
   font-weight: 400;
@@ -60,11 +60,11 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 4vw;
+  font-size: 7vw;
 }
 
 .intro_date_container i {
-  font-size: 3vw;
+  font-size: 5vw;
   color: var(--deep-green);
 }
 
@@ -75,15 +75,12 @@
 .intro_content_container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding-top: 5%;
 }
 
 .intro_content_container > p {
-  color: var(--soft-black);
-  font-family: "Diphylleia", serif;
   font-weight: 500;
-  font-style: normal;
 }
 
 .intro_img_container > img {
