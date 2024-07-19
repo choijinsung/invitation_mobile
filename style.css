@@ -55,10 +55,9 @@
 }
 
 .intro_date_container > p {
-  color: var(--soft-black);
+  color: var(--deep-green);
   font-family: "Edu AU VIC WA NT Hand", cursive;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 500;
   font-size: 5vw;
 }
 
@@ -101,5 +100,9 @@
   
   .intro_date_container i {
     font-size: 1.5vw;
+  }
+
+  .intro_content_container {
+    padding-top: 5%;
   }
 }
