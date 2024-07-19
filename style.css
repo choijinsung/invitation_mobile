@@ -79,7 +79,6 @@
 
 .intro_content_container > p {
   font-weight: 500;
-  font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 .intro_img_container > img {
@@ -102,9 +101,5 @@
   
   .intro_date_container i {
     font-size: 1.5vw;
-  }
-
-  .intro_content_container {
-    padding-top: 5%;
   }
 }
