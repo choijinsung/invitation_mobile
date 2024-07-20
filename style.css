@@ -44,7 +44,6 @@
 #intro {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -76,6 +75,22 @@
 
 .intro_img_container > img {
   width: 95%;
+}
+
+#calendar {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.calendar_calendar_container {
+  background-color: RED;
+  height: 65%;
+}
+
+.calendar_d-day_container {
+  background-color: BLUE;
+  height: 35%;
 }
 
 @media screen and (min-width : 768px) {
