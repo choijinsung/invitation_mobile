@@ -83,14 +83,32 @@
   padding: 5%;
 }
 
-.calendar_calendar_container {
-  background-color: RED;
+.calendar_container {
   height: 65%;
 }
 
-.calendar_d-day_container {
-  background-color: BLUE;
+.calendar_title {
+  background-color: yellow;
+  height: 20%;
+}
+
+.calendar_content {
+  background-color: red;
+  height: 80%;
+}
+
+.d-day_container {
   height: 35%;
+}
+
+.d-day_clock {
+  background-color: green;
+  height: 50%;
+}
+
+.d-day_sentence {
+  background-color: blue;
+  height: 50%;
 }
 
 @media screen and (min-width : 768px) {
