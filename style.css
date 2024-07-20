@@ -8,11 +8,13 @@
   --soft-white: #fffefc;
   --soft-black: #1f2126;
   --deep-green: #003d16;
+  --deepest-green: #06291d;
 }
 
 .bg {
   min-height: 100vh;
-  background-image: url("./images/bg_web.svg");
+  /* background-image: url("./images/bg_web.svg"); */
+  background-color: var(--deepest-green);
   background-size: cover;
   padding : 10% 5%;
 }
