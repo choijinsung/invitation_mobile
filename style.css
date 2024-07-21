@@ -11,6 +11,13 @@
   --deepest-green: #06291d;
 }
 
+p {
+  color: var(--soft-black);
+  font-family: "Diphylleia", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .bg {
   min-height: 100vh;
   /* background-image: url("./images/bg_web.svg"); */
@@ -23,9 +30,6 @@
   text-align: center;
   color: var(--soft-white);
   font-size: 6vw;
-  font-family: "Diphylleia", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .page {
@@ -34,13 +38,6 @@
   margin: 0 auto;
   margin-top: 10%;
   background-color: var(--soft-white);
-}
-
-.page p {
-  color: var(--soft-black);
-  font-family: "Diphylleia", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 #intro {
@@ -60,7 +57,6 @@
 .intro_date_container > p {
   color: var(--deep-green);
   font-family: "Edu AU VIC WA NT Hand", cursive;
-  font-weight: 500;
   font-size: 5vw;
 }
 
@@ -90,8 +86,15 @@
 }
 
 .calendar_title {
-  background-color: yellow;
   height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar_title > p {
+  font-weight: 600;
+  font-size: 4vw;
 }
 
 .calendar_content {
@@ -129,5 +132,9 @@
   
   .intro_date_container i {
     font-size: 1.5vw;
+  }
+
+  .calendar_title > p {
+    font-size: 1.6vw;
   }
 }
