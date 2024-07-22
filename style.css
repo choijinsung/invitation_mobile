@@ -83,7 +83,7 @@ p {
 }
 
 .calendar_container {
-  height: 65%;
+  height: 70%;
 }
 
 .calendar_title {
@@ -143,7 +143,7 @@ table .d-day > p {
 }
 
 .d-day_container {
-  height: 35%;
+  height: 30%;
 }
 
 .d-day_clock {
