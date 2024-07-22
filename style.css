@@ -62,7 +62,7 @@ p {
 }
 
 .intro_date_container i {
-  font-size: 3vw;
+  font-size: 3.75vw;
   color: var(--green);
 }
 
@@ -110,11 +110,11 @@ table {
 }
 
 table thead {
-  height: 17%;
+  height: 15%;
 }
 
 table tbody {
-  height: 83%;
+  height: 85%;
 }
 
 table td, th {
@@ -171,7 +171,7 @@ table .d-day > p {
   }
   
   .intro_date_container i {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
 
   .calendar_title > p, table td, th {
