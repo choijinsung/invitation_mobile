@@ -21,7 +21,6 @@ p {
 
 .bg {
   min-height: 100vh;
-  /* background-image: url("./images/bg_web.svg"); */
   background-color: var(--deepest-green);
   background-size: cover;
   padding : 10% 5%;
@@ -56,14 +55,9 @@ p {
 }
 
 .intro_date_container > p {
-  color: var(--green);
+  color: var(--soft-black);
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-size: 5vw;
-}
-
-.intro_date_container i {
-  font-size: 3.75vw;
-  color: var(--green);
 }
 
 .intro_img_container {
@@ -168,10 +162,6 @@ table .d-day > p {
 
   .intro_date_container > p {
     font-size: 2vw;
-  }
-  
-  .intro_date_container i {
-    font-size: 1.5vw;
   }
 
   .calendar_title > p, table td, th {
