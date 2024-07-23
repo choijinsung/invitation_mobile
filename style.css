@@ -123,13 +123,22 @@ table th {
 }
 
 table td {
+  position: relative;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
 }
 
 table .d-day > p {
-  display: none;
+  position: absolute;
+}
+
+table .d-day > p:nth-of-type(1) {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--soft-white);
+  z-index: 2;
 }
 
 .sun {
