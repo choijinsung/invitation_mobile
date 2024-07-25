@@ -167,7 +167,7 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .d-day_clock {
-  background-color: green;
+  display: flex;
   height: 50%;
 }
 
