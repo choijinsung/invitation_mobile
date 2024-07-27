@@ -168,11 +168,46 @@ table .d-day > p:nth-of-type(2) {
 
 .d-day_clock {
   display: flex;
+  justify-content: center;
   height: 50%;
+  padding: 5% 0;
+}
+
+.d-day_clock > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.d-day_box {
+  border: 1px solid black;
+  width: 15%;
+}
+
+.d-day_box > p, .colon > p {
+  text-align: center;
+}
+
+.colon {
+  width: 5%;
+}
+
+.d-day_box > p:nth-child(1), .colon > p:nth-child(1) {
+  font-size: 5vw;
+  font-weight: 500;
+  height: 75%;
+  vertical-align: middle;
+}
+
+.d-day_box > p:nth-child(2), .colon > p:nth-child(2) {
+  font-size: 1.5vw;
+  height: 25%;
+  vertical-align: middle;
 }
 
 .d-day_sentence {
   height: 50%;
+  text-align: center;
 }
 
 @media screen and (min-width : 768px) {
@@ -200,5 +235,13 @@ table .d-day > p:nth-of-type(2) {
   table .d-day > p:nth-of-type(2) {
     transform: translate(-50%, 10%);
     font-size: 0.5vw;
+  }
+
+  .d-day_box > p:nth-child(1), .colon > p:nth-child(1) {
+    font-size: 2vw;
+  }
+  
+  .d-day_box > p:nth-child(2), .colon > p:nth-child(2) {
+    font-size: 0.6vw;
   }
 }
