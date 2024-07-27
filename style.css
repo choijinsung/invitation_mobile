@@ -200,14 +200,22 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .d-day_box > p:nth-child(2), .colon > p:nth-child(2) {
-  font-size: 1.5vw;
   height: 25%;
-  vertical-align: middle;
+}
+
+.d-day_box > p:nth-child(2) {
+  padding-bottom: 35%;
+  font-size: 2vw;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 .d-day_sentence {
   height: 50%;
   text-align: center;
+}
+
+.d-day_sentence * {
+  font-size: 3vw;
 }
 
 @media screen and (min-width : 768px) {
@@ -243,5 +251,9 @@ table .d-day > p:nth-of-type(2) {
   
   .d-day_box > p:nth-child(2), .colon > p:nth-child(2) {
     font-size: 0.6vw;
+  }
+
+  .d-day_sentence * {
+    font-size: 1.2vw;
   }
 }
