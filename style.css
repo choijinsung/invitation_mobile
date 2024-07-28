@@ -147,22 +147,22 @@ table .d-day > p:nth-of-type(1) {
 table .d-day > i {
   font-size: 8vw;
   transform: translate(0, 10%);
-  color: var(--green);
   z-index: 1;
+  color: var(--lightest-green);
 }
 
 table .d-day > p:nth-of-type(2) {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 30%);
-  color: var(--green);
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-size: 1vw;
   font-weight: 600;
+  color: var(--deep-green);
 }
 
 .sun {
-  color: var(--green);
+  color: var(--light-green);
 }
 
 .d-day_container {
@@ -184,7 +184,7 @@ table .d-day > p:nth-of-type(2) {
 
 .d-day_box {
   width: 15%;
-  border: 1px solid black
+  background-color: rgba(0, 111, 66, 0.1);
 }
 
 .d-day_box > p, .colon > p {
@@ -206,10 +206,15 @@ table .d-day > p:nth-of-type(2) {
   height: 25%;
 }
 
+.d-day_box > p:nth-child(1) {
+  color: var(--deep-green);
+}
+
 .d-day_box > p:nth-child(2) {
   transform: translate(0, -50%);
   font-size: 2.5vw;
   font-family: "Edu AU VIC WA NT Hand", cursive;
+  color: var(--green);
 }
 
 .d-day_sentence {
@@ -222,8 +227,13 @@ table .d-day > p:nth-of-type(2) {
   font-size: 3.5vw;
 }
 
+.d-day_sentence i {
+  color: var(--deep-green);
+}
+
 .d-day_sentence > #remain-day {
   font-weight: 700;
+  color: var(--lightest-green);
 }
 
 @media screen and (min-width : 768px) {
