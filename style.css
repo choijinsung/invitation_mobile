@@ -184,6 +184,7 @@ table .d-day > p:nth-of-type(2) {
 
 .d-day_box {
   width: 15%;
+  border: 1px solid black
 }
 
 .d-day_box > p, .colon > p {
@@ -206,8 +207,8 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .d-day_box > p:nth-child(2) {
-  padding-bottom: 35%;
-  font-size: 2vw;
+  padding-bottom: 40%;
+  font-size: 2.5vw;
   font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
