@@ -214,7 +214,7 @@ table .d-day > p:nth-of-type(2) {
   transform: translate(0, -50%);
   font-size: 2.5vw;
   font-family: "Edu AU VIC WA NT Hand", cursive;
-  color: var(--green);
+  color: var(--deep-green);
 }
 
 .d-day_sentence {
@@ -228,12 +228,12 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .d-day_sentence i {
-  color: var(--deep-green);
+  color: var(--lightest-green);
 }
 
 .d-day_sentence > #remain-day {
   font-weight: 700;
-  color: var(--lightest-green);
+  color: var(--deep-green);
 }
 
 @media screen and (min-width : 768px) {
