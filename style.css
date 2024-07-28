@@ -173,7 +173,7 @@ table .d-day > p:nth-of-type(2) {
   display: flex;
   justify-content: center;
   height: 50%;
-  padding: 3% 0;
+  padding-top: 5%;
 }
 
 .d-day_clock > div {
