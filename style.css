@@ -7,8 +7,11 @@
 :root {
   --soft-white: #fffefc;
   --soft-black: #1f2126;
+  --lightest-green: #43e9b1;
+  --light-green: #12cf99;
   --green: #006f42;
   --deep-green: #003d16;
+  --deeper-green: #004c23;
   --deepest-green: #06291d;
 }
 
@@ -180,7 +183,6 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .d-day_box {
-  border: 1px solid black;
   width: 15%;
 }
 
@@ -212,10 +214,15 @@ table .d-day > p:nth-of-type(2) {
 .d-day_sentence {
   height: 50%;
   text-align: center;
+  padding-top: 5%;
 }
 
 .d-day_sentence * {
   font-size: 3.5vw;
+}
+
+.d-day_sentence > #remain-day {
+  font-weight: 700;
 }
 
 @media screen and (min-width : 768px) {
