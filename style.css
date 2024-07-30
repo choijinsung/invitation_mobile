@@ -13,6 +13,7 @@
   --deep-green: #003d16;
   --deeper-green: #004c23;
   --deepest-green: #06291d;
+  --ti-cursor-color: var(--deepest-green);
 }
 
 p, span {
@@ -73,7 +74,7 @@ p, span {
   width: 95%;
 }
 
-#calendar {
+#calendar, #location {
   display: flex;
   flex-direction: column;
   padding: 5%;
@@ -148,7 +149,7 @@ table .d-day > i {
   font-size: 8vw;
   transform: translate(0, 10%);
   z-index: 1;
-  color: var(--lightest-green);
+  color: var(--green);
 }
 
 table .d-day > p:nth-of-type(2) {
@@ -162,7 +163,7 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .sun {
-  color: var(--light-green);
+  color: var(--green);
 }
 
 .d-day_container {
@@ -234,6 +235,26 @@ table .d-day > p:nth-of-type(2) {
 .d-day_sentence > #remain-day {
   font-weight: 700;
   color: var(--deep-green);
+}
+
+.location_title_container {
+  height: 10%;
+  background-color: red;
+}
+
+.location_address_container {
+  height: 15%;
+  background-color: orange;
+}
+
+.location_map_container {
+  height: 35%;
+  background-color: green;
+}
+
+.location_transportation_container {
+  height: 40%;
+  background-color: yellow;
 }
 
 @media screen and (min-width : 768px) {

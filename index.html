@@ -36,12 +36,15 @@
   <script src="https://kit.fontawesome.com/6d5187449d.js" crossorigin="anonymous"></script>
 
   <!-- JavaScript -->
-   <script defer src="./script.js"></script>
+  <script defer src="./script.js"></script>
+
+  <!-- Typeit -->
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 </head>
 <body>
   <div class="bg">
     <header>
-      <p class="title">성규 & 진성, 결혼합니다.</p>
+      <p class="title" id="title">성규 & 진성, 결혼합니다.</p>
     </header>
 
     <section class="page" id="intro">
@@ -169,7 +172,10 @@
     </section>
 
     <section class="page" id="location">
-      
+      <div class="location_title_container"></div>
+      <div class="location_address_container"></div>
+      <div class="location_map_container"></div>
+      <div class="location_transportation_container"></div>
     </section>
 
     <section class="page" id="gallery">

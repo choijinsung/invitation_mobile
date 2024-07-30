@@ -6,6 +6,14 @@ const remainSec = document.querySelector('#d-day_sec');
 const remainDay = document.querySelector('#remain-day');
 const remainOrPast = document.querySelector('#remain_or_past');
 
+document.addEventListener('DOMContentLoaded', () => {
+  new TypeIt('#title', {
+    afterComplete: function (instance) {
+      instance.destroy();
+    }
+  }).go();
+});
+
 function diffDay() {
   const weddingTime = new Date("2024-11-23").setHours(12, 30, 0, 0);
   const todayTime = new Date();
