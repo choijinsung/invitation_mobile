@@ -237,14 +237,27 @@ table .d-day > p:nth-of-type(2) {
   color: var(--deep-green);
 }
 
+#location {
+  height: 200vw;
+}
+
 .location_title_container {
   height: 10%;
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dashed var(--soft-black);
+}
+
+.location_title_container > p {
+  font-weight: 500;
+  font-size: 4vw;
 }
 
 .location_address_container {
   height: 15%;
-  background-color: orange;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
 }
 
 .location_map_container {
@@ -271,7 +284,7 @@ table .d-day > p:nth-of-type(2) {
     font-size: 2vw;
   }
 
-  .calendar_title > p, table td, th {
+  .calendar_title > p, table td, th, .location_title_container > p {
     font-size: 1.6vw;
   }
 
