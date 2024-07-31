@@ -246,10 +246,7 @@ table .d-day > p:nth-of-type(2) {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px dashed var(--soft-black);
-  border-top: 1px dashed var(--deep-green);
-  border-left: 1px dashed var(--lightest-green);
-  border-right: 1px dashed var(--deeper-green);
+  border-bottom: 1px dashed rgba(0, 111, 66, 0.1);
 }
 
 .location_title_container > p {
