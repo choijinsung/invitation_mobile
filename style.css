@@ -246,7 +246,7 @@ table .d-day > p:nth-of-type(2) {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px dashed rgba(0, 111, 66, 0.1);
+  border-bottom: 1px dashed rgba(0, 111, 66, 0.65);
 }
 
 .location_title_container > p {
