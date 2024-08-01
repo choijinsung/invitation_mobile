@@ -18,7 +18,6 @@ function copy() {
    // 복사
   navigator.clipboard.writeText("경기도 성남시 분당구 판교역로226번길 16");
 }
-출처: https://soyeon-kim.tistory.com/58 [sea of soyeon:티스토리]
 
 function diffDay() {
   const weddingTime = new Date("2024-11-23").setHours(12, 30, 0, 0);
