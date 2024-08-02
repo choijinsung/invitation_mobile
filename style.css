@@ -16,11 +16,17 @@
   --ti-cursor-color: var(--deepest-green);
 }
 
-p, span {
+p, span, button {
   color: var(--soft-black);
   font-family: "Diphylleia", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+button {
+  padding: 1% 2%;
+  border: none;
+  background-color: rgba(0, 111, 66, 0.05);
 }
 
 .bg {
@@ -256,8 +262,14 @@ table .d-day > p:nth-of-type(2) {
 
 .location_address_container {
   height: 15%;
-  border-left: 1px solid orange;
-  border-right: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location_address_container > button {
+  margin-top: 2%;
 }
 
 .location_map_container {
@@ -307,5 +319,17 @@ table .d-day > p:nth-of-type(2) {
 
   .d-day_sentence * {
     font-size: 1.4vw;
+  }
+
+  #location {
+    height: 100vw;
+  }
+
+  .location_address_container * {
+    font-size: 1.2vw;
+  }
+
+  .location_address_container > button {
+    margin-top: 5%;
   }
 }
