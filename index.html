@@ -35,9 +35,6 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/6d5187449d.js" crossorigin="anonymous"></script>
 
-  <!-- Kakao map API -->
-  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b75e7c0e521976aa6642a7c905fb48d8"></script>
-
   <!-- JavaScript -->
   <script defer src="./script.js"></script>
 
@@ -186,6 +183,17 @@
       <div class="location_map_container">
         <div class="location_map_box">
           <div id="map"></div>
+          <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b75e7c0e521976aa6642a7c905fb48d8"></script>
+          <script>
+            let container = document.getElementById('map');
+
+            let options = {
+              center: new kakao.maps.LatLng(33.450701, 126.570667),
+              level: 3
+            };
+
+            let map = new kakao.maps.Map(container, options);
+          </script>
         </div>
         <div class="connect-to-nav_box"></div>
       </div>
