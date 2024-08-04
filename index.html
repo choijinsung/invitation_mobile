@@ -35,6 +35,9 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/6d5187449d.js" crossorigin="anonymous"></script>
 
+  <!-- Kakao map API -->
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b75e7c0e521976aa6642a7c905fb48d8"></script>
+
   <!-- JavaScript -->
   <script defer src="./script.js"></script>
 
@@ -181,12 +184,8 @@
         <button onclick="copy()">주소 복사</button>
       </div>
       <div class="location_map_container">
-        <div class="location_map_button_box">
-          <button class="location_map_button">약도보기</button>
-        </div>
         <div class="location_map_box">
-          <div class="location_dynamic_map show"></div>
-          <div class="location_static_map"></div>
+          <div id="map"></div>
         </div>
         <div class="connect-to-nav_box"></div>
       </div>

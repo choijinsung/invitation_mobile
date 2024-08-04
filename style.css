@@ -278,7 +278,6 @@ table .d-day > p:nth-of-type(2) {
 
 .location_map_container {
   height: 30%;
-  background-color: green;
 }
 
 .location_transportation_container {
@@ -295,24 +294,14 @@ table .d-day > p:nth-of-type(2) {
   height: 80%;
 }
 
-.location_dynamic_map {
+#map {
   height: 100%;
   background-color: red;
-  display: none;
-}
-
-.location_static_map {
-  height: 100%;
-  background-color: blue;
-  display: none;
-}
-
-.show {
   display: block;
 }
 
 .connect-to-nav_box {
-  height: 10%;
+  height: 20%;
   background-color: purple;
 }
 
