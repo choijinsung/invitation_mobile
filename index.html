@@ -191,14 +191,18 @@
           <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b75e7c0e521976aa6642a7c905fb48d8&libraries=services,clusterer,drawing"></script>
           
           <script>
-            let container = document.getElementById('map');
+            let container = document.getElementById('map'); // 지도를 표시할 div
 
             let options = {
-              center: new kakao.maps.LatLng(37.400743, 127.111432),
-              level: 3
+              center: new kakao.maps.LatLng(37.400743, 127.111432), // 지도의 중심좌표
+              level: 3 // 지도의 확대 레벨
             };
 
-            let map = new kakao.maps.Map(container, options);
+            let map = new kakao.maps.Map(container, options); // 지도를 생성
+
+            // 지도 확대 축소를 제어할 수 있는 줌 컨트롤을 생성
+            let zoomControl = new kakao.maps.zoomControl();
+            map.addControl(zoomControl, kakao.maps.ControlPosition.TOPRIGHT);
           </script>
         </div>
         <div class="connect-to-nav_box"></div>
