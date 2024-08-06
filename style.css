@@ -294,27 +294,6 @@ table .d-day > p:nth-of-type(2) {
   display: block;
 }
 
-.custom-zoom-control {
-  background: rgba(255, 255, 255, 0.8);
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 5px;
-}
-.custom-zoom-control button {
-  background: #fff;
-  border: none;
-  cursor: pointer;
-  padding: 5px;
-  font-size: 14px;
-}
-.custom-zoom-control button:hover {
-  background: #f1f1f1;
-}
-.custom-zoom-control .zoom-in, .custom-zoom-control .zoom-out {
-  display: block;
-  text-align: center;
-}
-
 .connect-to-nav_box {
   height: 20%;
   background-color: purple;
