@@ -200,12 +200,6 @@
 
             let map = new kakao.maps.Map(container, options); // 지도를 생성
 
-            // 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성
-            let mapTypeControl = new kakao.maps.mapTypeControl();
-
-            // 지도에 컨트롤을 추가해야 지도 위에 표시
-            map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
-
             // 지도 확대 축소를 제어할 수 있는 줌 컨트롤을 생성
             let zoomControl = new kakao.maps.zoomControl();
             map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
