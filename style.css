@@ -291,7 +291,7 @@ table .d-day > p:nth-of-type(2) {
 
 #chkTraffic + label > span {
   font-family: fantasy;
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 
 .location_map_box {
@@ -361,6 +361,6 @@ table .d-day > p:nth-of-type(2) {
   }
 
   #chkTraffic + label > span {
-    font-size: 1vw;
+    font-size: 1.2vw;
   }
 }
