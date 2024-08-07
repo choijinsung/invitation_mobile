@@ -287,17 +287,13 @@ table .d-day > p:nth-of-type(2) {
 
 .location_map_checkbox {
   height: 10%;
+  display: flex;
+  align-items: center;
 }
 
 #chkTraffic + label {
   cursor: pointer;
-}
-
-#chkTraffic + label > span {
-  vertical-align: middle;
-  height: 100%;
   padding-left: 5px;
-  font-family: fantasy;
   font-size: 3.5vw;
 }
 
@@ -366,7 +362,7 @@ table .d-day > p:nth-of-type(2) {
     margin-top: 5%;
   }
 
-  #chkTraffic + label > span {
+  #chkTraffic + label {
     font-size: 1.2vw;
   }
 }
