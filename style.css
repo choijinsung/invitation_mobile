@@ -289,12 +289,37 @@ table .d-day > p:nth-of-type(2) {
   height: 10%;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+}
+
+#chkTraffic {
+  display: none;
 }
 
 #chkTraffic + label {
   cursor: pointer;
-  padding-left: 5px;
   font-size: 3.5vw;
+  color: var(--soft-black);
+}
+
+#chkTraffic + label:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--light-green);
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#chkTraffic:checked + label:before {
+  content: "";
+  background-color: var(--light-green);
+  border-color: var(--light-green);
+  background-image: url('/images/check-white.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .location_map_box {
