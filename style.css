@@ -285,8 +285,13 @@ table .d-day > p:nth-of-type(2) {
   background-color: yellow;
 }
 
+.location_map_checkbox {
+  height: 10%;
+}
+
 .location_map_box {
-  height: 80%;
+  height: 70%;
+  background-color: red;
 }
 
 #map {
