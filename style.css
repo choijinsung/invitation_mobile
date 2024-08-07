@@ -298,17 +298,19 @@ table .d-day > p:nth-of-type(2) {
 
 #chkTraffic + label {
   cursor: pointer;
-  font-size: 3.5vw;
+  font-size: 3vw;
   color: var(--soft-black);
+  padding-right: 10px;
+  display: inline-block;
 }
 
 #chkTraffic + label:before {
   content: "";
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  border: 2px solid var(--light-green);
-  border-radius: 4px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--light-green);
+  border-radius: 3px;
   vertical-align: middle;
   margin-right: 5px;
 }
