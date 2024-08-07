@@ -289,6 +289,11 @@ table .d-day > p:nth-of-type(2) {
   height: 10%;
 }
 
+#chkTraffic + label > span {
+  font-family: fantasy;
+  font-size: 3vw;
+}
+
 .location_map_box {
   height: 70%;
   background-color: red;
@@ -353,5 +358,9 @@ table .d-day > p:nth-of-type(2) {
 
   .location_address_container > button {
     margin-top: 5%;
+  }
+
+  #chkTraffic + label > span {
+    font-size: 1vw;
   }
 }
