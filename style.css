@@ -370,6 +370,8 @@ table .d-day > p:nth-of-type(2) {
   margin-right: 35px;
   padding: 10px 15px;
   font-size: 14px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-style: normal;
   font-weight: bold;
 }
 
