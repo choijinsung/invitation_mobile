@@ -400,6 +400,30 @@ table .d-day > p:nth-of-type(2) {
 .location_transportation_container {
   height: 35%;
   background-color: yellow;
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subway_box{
+  height: 18%;
+  background-color: red;
+}
+
+.bus_box {
+  height: 36%;
+  background-color: green;
+}
+
+.car_box {
+  height: 18%;
+  background-color: blue;
+}
+
+.transportation_info_box {
+  height: 12%;
+  background-color: pink;
 }
 
 @media screen and (min-width : 768px) {
