@@ -423,7 +423,7 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .location_transportation_container > div > div:nth-of-type(2) * {
-  font-size: 2.8vw;
+  font-size: 3.2vw;
 }
 
 .subway_box{
@@ -447,7 +447,7 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .transportation_info_box > p {
-  font-size: 2.8vw;
+  font-size: 3.2vw;
 }
 
 @media screen and (min-width : 768px) {
