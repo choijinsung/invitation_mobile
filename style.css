@@ -437,7 +437,7 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .subway_box_content * {
-  margin-right: 0.5vw;
+  margin-right: 0.7vw;
 }
 
 .subway_box_content > span:nth-of-type(1),
@@ -575,7 +575,7 @@ table .d-day > p:nth-of-type(2) {
   }
 
   .subway_box_content * {
-    margin-right: 0.2vw;
+    margin-right: 0.28vw;
   }
 
   .subway_box_content > span:nth-of-type(1),
