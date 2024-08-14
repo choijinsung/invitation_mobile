@@ -429,7 +429,6 @@ table .d-day > p:nth-of-type(2) {
 
 .subway_box{
   height: 20%;
-  background-color: pink;
 }
 
 .subway_box_content {
@@ -450,10 +449,10 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .subway_box_content > span:nth-of-type(1) {
-  background-color: #D43F3A;
+  background-color: #BA0C2F;
 }
 .subway_box_content > span:nth-of-type(2) {
-  background-color: #0054A6;
+  background-color: #0066FF;
 }
 
 .subway_box_content > span:nth-of-type(3) {
@@ -462,7 +461,6 @@ table .d-day > p:nth-of-type(2) {
 
 .bus_box {
   height: 40%;
-  background-color: pink;
 }
 
 .bus_box_content > p:nth-of-type(1),
@@ -474,22 +472,31 @@ table .d-day > p:nth-of-type(2) {
 .bus_box_content > p:nth-of-type(4)::before {
   content: '';
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  background-color: black;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   margin-right: 5px;
   vertical-align: middle;
 }
 
+.bus_box_content > p:nth-of-type(2)::before {
+  background-color: #e60012;
+}
+
+.bus_box_content > p:nth-of-type(4)::before {
+  background-color: #33CC99;
+}
+
 .car_box {
   height: 20%;
-  background-color: pink;
+}
+
+.car_box_content > span:nth-of-type(1) {
+  font-weight: 600;
 }
 
 .transportation_info_box {
   height: 15%;
-  background-color: pink;
 }
 
 .transportation_info_box > p {
