@@ -250,7 +250,7 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .location_title_container {
-  height: 10%;
+  height: 7%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -399,7 +399,7 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .location_transportation_container {
-  height: 35%;
+  height: 38%;
   padding: 5% 0;
   display: flex;
   flex-direction: column;
