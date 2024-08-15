@@ -300,6 +300,7 @@ table .d-day > p:nth-of-type(2) {
   color: var(--soft-black);
   padding-right: 10px;
   display: inline-block;
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 
 #chkTraffic + label:before {
