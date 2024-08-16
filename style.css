@@ -82,7 +82,7 @@ button {
   width: 95%;
 }
 
-#calendar, #location {
+#calendar, #location, #gallery {
   display: flex;
   flex-direction: column;
   padding: 5%;
@@ -504,6 +504,27 @@ table .d-day > p:nth-of-type(2) {
   font-size: 3.2vw;
 }
 
+#gallery {
+  height: 270vw;
+}
+
+.gallery_title_container {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dashed rgba(0, 111, 66, 0.2);
+}
+
+.gallery_title_container > p {
+  font-weight: 500;
+  font-size: 4vw;
+}
+
+.gallery_address_container {
+  height: 90%;
+}
+
 @media screen and (min-width : 768px) {
   .title {
     font-size: 4vw;
@@ -518,7 +539,9 @@ table .d-day > p:nth-of-type(2) {
     font-size: 2vw;
   }
 
-  .calendar_title > p, table td, th, .location_title_container > p {
+  .calendar_title > p, table td, th,
+  .location_title_container > p, 
+  .gallery_title_container > p {
     font-size: 1.6vw;
   }
 
@@ -543,7 +566,7 @@ table .d-day > p:nth-of-type(2) {
     font-size: 1.4vw;
   }
 
-  #location {
+  #location, #gallery {
     height: 100vw;
   }
 
