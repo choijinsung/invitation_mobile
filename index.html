@@ -29,18 +29,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap" rel="stylesheet">
  
+  <!-- swiper-slide -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
   <!-- CSS -->
   <link rel="stylesheet" href="./style.css">
   <title>Wedding Invitation</title>
 
   <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/6d5187449d.js" crossorigin="anonymous"></script>
+  <script defer src="https://kit.fontawesome.com/6d5187449d.js" crossorigin="anonymous"></script>
 
   <!-- JavaScript -->
   <script defer src="./script.js"></script>
 
   <!-- Typeit -->
-  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  <script defer src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 </head>
 <body>
   <div class="bg">
@@ -49,9 +53,6 @@
     </header>
 
     <section class="page" id="intro">
-      <!-- <div class="intro_date_container">
-        <p>2024-11-23&nbsp;&nbsp;&nbsp;&nbsp;12:30 PM</p>
-      </div> -->
       <div class="intro_img_container">
         <img 
           srcset="./images/intro_bg_small.jpg 800w,
@@ -307,6 +308,67 @@
         <p>갤러리</p>
       </div>
       <div class="gallery_item_container">
+        <div class="gallery-item" data-slide="0">
+          <img src="./images/gallery-1.jpg" alt="Image 1">
+        </div>
+        <div class="gallery-item" data-slide="1">
+          <img src="./images/gallery-2.jpg" alt="Image 2">
+        </div>
+        <div class="gallery-item" data-slide="2">
+          <img src="./images/gallery-3.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" data-slide="3">
+          <img src="./images/gallery-4.jpg" alt="Image 4">
+        </div>
+        <div class="gallery-item" data-slide="4">
+          <img src="./images/gallery-5.jpg" alt="Image 5">
+        </div>
+        <div class="gallery-item" data-slide="5">
+          <img src="./images/gallery-6.jpg" alt="Image 6">
+        </div>
+        <div class="gallery-item" data-slide="6">
+          <img src="./images/gallery-7.jpg" alt="Image 7">
+        </div>
+        <div class="gallery-item" data-slide="7">
+          <img src="./images/gallery-8.jpg" alt="Image 8">
+        </div>
+        <div class="gallery-item" data-slide="8">
+          <img src="./images/gallery-9.jpg" alt="Image 9">
+        </div>
+        <div class="gallery-item" data-slide="9">
+          <img src="./images/gallery-10.jpg" alt="Image 10">
+        </div>
+        <div class="gallery-item" data-slide="10">
+          <img src="./images/gallery-11.jpg" alt="Image 11">
+        </div>
+        <div class="gallery-item" data-slide="11">
+          <img src="./images/gallery-12.jpg" alt="Image 12">
+        </div>
+      </div>
+
+      <!-- Swiper Slider -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/gallery-1.jpg" alt="Image 1"></div>
+          <div class="swiper-slide"><img src="./images/gallery-2.jpg" alt="Image 2"></div>
+          <div class="swiper-slide"><img src="./images/gallery-3.jpg" alt="Image 3"></div>
+          <div class="swiper-slide"><img src="./images/gallery-4.jpg" alt="Image 4"></div>
+          <div class="swiper-slide"><img src="./images/gallery-5.jpg" alt="Image 5"></div>
+          <div class="swiper-slide"><img src="./images/gallery-6.jpg" alt="Image 6"></div>
+          <div class="swiper-slide"><img src="./images/gallery-7.jpg" alt="Image 7"></div>
+          <div class="swiper-slide"><img src="./images/gallery-8.jpg" alt="Image 8"></div>
+          <div class="swiper-slide"><img src="./images/gallery-9.jpg" alt="Image 9"></div>
+          <div class="swiper-slide"><img src="./images/gallery-10.jpg" alt="Image 10"></div>
+          <div class="swiper-slide"><img src="./images/gallery-11.jpg" alt="Image 11"></div>
+          <div class="swiper-slide"><img src="./images/gallery-12.jpg" alt="Image 12"></div>
+        </div>
+
+        <!-- Add Pagination if needed -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Add Navigation buttons if needed -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
     </section>
 
