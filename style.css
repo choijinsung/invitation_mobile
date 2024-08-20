@@ -525,6 +525,10 @@ table .d-day > p:nth-of-type(2) {
   height: 90%;
 }
 
+.swiper-container {
+  display: none;
+}
+
 @media screen and (min-width : 768px) {
   .title {
     font-size: 4vw;

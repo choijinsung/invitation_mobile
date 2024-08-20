@@ -7,11 +7,47 @@ const remainDay = document.querySelector('#remain-day');
 const remainOrPast = document.querySelector('#remain_or_past');
 
 document.addEventListener('DOMContentLoaded', () => {
+  
   new TypeIt('#title', {
     afterComplete: function (instance) {
       instance.destroy();
     }
   }).go();
+
+  // Initialize Swiper
+  let swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 50,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    loop: true,
+  });
+
+  // Event listeners for gallery items
+  document.querySelectorAll('.gallery-item').forEach((item) => {
+    item.addEventListener('click', (event) => {
+      let slideIndex = parseInt(item.getAttribute('data-slide'));
+      swiper.slideToLoop(slideIndex, 0);
+      document.querySelector('.swiper-container').style.display = 'block';
+      event.stopPropagation();
+    });
+  });
+
+  // Hide swiper on background click
+  document.querySelector('.swiper-container').addEventListener('click', (event) => {
+    if (event.target === document.querySelector('.swiper-slide.swiper-slide-active')) {
+      document.querySelector('.swiper-container').style.display = 'none';
+    }
+    event.stopPropagation();
+    swiper.update();
+  });
+
 });
 
 function copy() {
