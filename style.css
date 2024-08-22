@@ -308,12 +308,12 @@ table .d-day > p:nth-of-type(2) {
 #chkTraffic + label:before {
   content: "";
   display: inline-block;
-  width: 1vw;
-  height: 1vw;
+  width: 12px;
+  height: 12px;
   border: 1px solid var(--light-green);
   border-radius: 3px;
   vertical-align: middle;
-  margin-right: 0.5vw;
+  margin-right: 6px;
   transform: translateY(-10%);
 }
 
@@ -632,6 +632,12 @@ table .d-day > p:nth-of-type(2) {
 
   #chkTraffic + label {
     font-size: 1.2vw;
+  }
+
+  #chkTraffic + label:before {
+    width: 1vw;
+    height: 1vw;
+    margin-right: 0.5vw;
   }
 
   .connect-to-nav_box > button {
