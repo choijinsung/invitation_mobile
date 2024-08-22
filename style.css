@@ -313,7 +313,7 @@ table .d-day > p:nth-of-type(2) {
   border: 1px solid var(--light-green);
   border-radius: 3px;
   vertical-align: middle;
-  margin-right: 6px;
+  margin-right: 4px;
   transform: translateY(0%);
 }
 
