@@ -667,6 +667,11 @@ table .d-day > p:nth-of-type(2) {
     min-height: 80vw;
   } 
 
+  .swiper-slide > img {
+    width: auto;
+    height: 80%;
+  }
+
   .swiper-button-next,
   .swiper-button-prev {
     display: block;
