@@ -50,6 +50,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+const closeBtn = document.getElementById('closeBtn');
+const swiperContainer = document.getElementById('mySwiper');
+
+closeBtn.addEventListener('click', () => {
+    swiperContainer.style.display = 'none';
+});
+
 function copy() {
    // 복사
   navigator.clipboard.writeText("경기도 성남시 분당구 판교역로226번길 16");

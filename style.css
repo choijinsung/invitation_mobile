@@ -587,6 +587,21 @@ table .d-day > p:nth-of-type(2) {
   display: none;
 }
 
+.close-btn {
+  position: absolute;
+  top: 5vw;
+  right: 5vw;
+  width: 5vw;
+  height: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 7.5vw;
+  color: var(--soft-black);
+}
+
 .account_item_container {
   height: 85%;
 }
@@ -709,5 +724,13 @@ table .d-day > p:nth-of-type(2) {
   .swiper-button-next,
   .swiper-button-prev {
     display: block;
+  }
+
+  .close-btn {
+    top: 2vw;
+    right: 2vw;
+    width: 2vw;
+    height: 2vw;
+    font-size: 3vw;
   }
 }
