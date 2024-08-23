@@ -84,7 +84,7 @@ button {
   width: 95%;
 }
 
-#calendar, #location, #gallery {
+#calendar, #location, #gallery, #account {
   display: flex;
   flex-direction: column;
   padding: 5%;
@@ -512,12 +512,20 @@ table .d-day > p:nth-of-type(2) {
   min-height: 180vw;
 }
 
-.gallery_title_container {
-  height: 10%;
+.gallery_title_container,
+.account_title_container {
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 1px dashed rgba(0, 111, 66, 0.2);
+}
+
+.gallery_title_container {
+  height: 10%;
+}
+
+.account_title_container {
+  height: 15%;
 }
 
 .gallery_title_container > p {
@@ -577,6 +585,20 @@ table .d-day > p:nth-of-type(2) {
 .swiper-button-next,
 .swiper-button-prev {
   display: none;
+}
+
+.account_item_container {
+  height: 85%;
+}
+
+.account_words_container {
+  height: 30%;
+  background-color: red;
+}
+
+.account_container {
+  height: 70%;
+  background-color: pink;
 }
 
 @media screen and (min-width : 768px) {
