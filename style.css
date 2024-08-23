@@ -602,13 +602,22 @@ table .d-day > p:nth-of-type(2) {
   color: var(--soft-black);
 }
 
+#account {
+  background-color: transparent;
+}
+
+.account_title_container > p {
+  font-weight: 500;
+  font-size: 4vw;
+  color: var(--soft-white);
+}
+
 .account_item_container {
   height: 85%;
 }
 
 .account_words_container {
   height: 30%;
-  background-color: red;
 }
 
 .account_container {
@@ -632,7 +641,8 @@ table .d-day > p:nth-of-type(2) {
 
   .calendar_title > p, table td, th,
   .location_title_container > p, 
-  .gallery_title_container > p {
+  .gallery_title_container > p, 
+  .account_title_container > p {
     font-size: 1.6vw;
   }
 
