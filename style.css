@@ -618,6 +618,15 @@ table .d-day > p:nth-of-type(2) {
 
 .account_words_container {
   height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.account_words_container > p {
+  color: var(--soft-white);
+  font-weight: 400;
 }
 
 .account_container {
