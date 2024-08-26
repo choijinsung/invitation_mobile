@@ -640,7 +640,7 @@ table .d-day > p:nth-of-type(2) {
 }
 
 .account_header, .account_content {
-  height: 8vw;
+  height: 10vw;
   border: 0.5px solid rgba(31, 33, 38, 0.45);
   background-color: white;
 }
@@ -676,7 +676,7 @@ table .d-day > p:nth-of-type(2) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3%;
+  padding: 0 5%;
 }
 
 .account_groom_container {
