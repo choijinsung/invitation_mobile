@@ -821,6 +821,11 @@ table .d-day > p:nth-of-type(2) {
     font-size: 1vw;
   }
 
+  .account_groom_header *,
+  .account_bride_header * {
+    font-size: 1.1vw;
+  }
+
   .account_groom_header, .account_groom_content,
   .account_bride_header, .account_bride_content {
     height: 3.5vw;
