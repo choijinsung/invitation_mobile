@@ -639,13 +639,15 @@ table .d-day > p:nth-of-type(2) {
   font-size: 3.2vw;
 }
 
-.account_header, .account_content {
+.account_groom_header, .account_groom_content,
+.account_bride_header, .account_bride_content {
   height: 10vw;
-  border: 0.5px solid rgba(31, 33, 38, 0.45);
+  /* border: 0.5px solid rgba(31, 33, 38, 0.45); */
   background-color: white;
 }
 
-.account_header {
+.account_groom_header,
+.account_bride_header {
   display: flex;
   position: relative;
   border-bottom: none;
@@ -663,20 +665,32 @@ table .d-day > p:nth-of-type(2) {
   font-weight: bold;
 }
 
-.account_header i {
+.account_groom_header i,
+.account_bride_header i {
   width: 7%;
   position: absolute;
   top: 50%;
   right: 0;
   transform: translate(-50%, -50%);
   color: var(--deep-green);
+  cursor: pointer;
+  transition: 0.3 ease-out;
 }
 
-.account_content {
+.account_groom_content,
+.account_bride_content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+.account_groom_content.open,
+.account_bride_content.open {
+  max-height: 10vw;
 }
 
 .account_groom_container {
@@ -807,7 +821,8 @@ table .d-day > p:nth-of-type(2) {
     font-size: 1vw;
   }
 
-  .account_header, .account_content {
+  .account_groom_header, .account_groom_content,
+  .account_bride_header, .account_bride_content {
     height: 3.5vw;
   }
 }

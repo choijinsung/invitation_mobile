@@ -48,6 +48,42 @@ document.addEventListener('DOMContentLoaded', () => {
     swiper.update();
   });
 
+  const accountGroomHeader = document.querySelector('.account_groom_header');
+  const accountGroomContent = document.querySelector('.account_groom_content');
+  const arrowGroom = document.querySelector('.arrow-groom');
+
+  accountGroomHeader.addEventListener('click', function() {
+    const isOpen = accountGroomContent.classList.contains('open');
+
+    if (isOpen) {
+      accountGroomContent.classList.remove('open');
+      arrowGroom.classList.remove('fa-chevron-up');
+      arrowGroom.classList.add('fa-chevron-down');
+    } else {
+      accountGroomContent.classList.add('open');
+      arrowGroom.classList.remove('fa-chevron-down');
+      arrowGroom.classList.add('fa-chevron-up');
+    }
+  });
+
+  const accountBrideHeader = document.querySelector('.account_bride_header');
+  const accountBrideContent = document.querySelector('.account_bride_content');
+  const arrowBride = document.querySelector('.arrow-bride');
+
+  accountBrideHeader.addEventListener('click', function() {
+    const isOpen = accountBrideContent.classList.contains('open');
+
+    if (isOpen) {
+      accountBrideContent.classList.remove('open');
+      arrowBride.classList.remove('fa-chevron-up');
+      arrowBride.classList.add('fa-chevron-down');
+    } else {
+      accountBrideContent.classList.add('open');
+      arrowBride.classList.remove('fa-chevron-down');
+      arrowBride.classList.add('fa-chevron-up');
+    }
+  });
+
 });
 
 const closeBtn = document.getElementById('closeBtn');
@@ -60,6 +96,16 @@ closeBtn.addEventListener('click', () => {
 function copy() {
    // 복사
   navigator.clipboard.writeText("경기도 성남시 분당구 판교역로226번길 16");
+}
+
+function copyGroomAccount() {
+  // 복사
+ navigator.clipboard.writeText("신한 110-166-342310");
+}
+
+function copyBrideAccount() {
+  // 복사
+ navigator.clipboard.writeText("우리 1005-604-094903");
 }
 
 function diffDay() {
