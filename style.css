@@ -789,6 +789,14 @@ table .d-day > p:nth-of-type(2) {
     display: block;
   }
 
+  .swiper-button-next {
+    padding-right: 3vw;
+  }
+
+  .swiper-button-prev {
+    padding-left: 3vw;
+  }
+
   .close-btn {
     top: 2vw;
     right: 2vw;
