@@ -6,13 +6,21 @@
 
 :root {
   --soft-white: #fffefc;
+  /* (255, 254, 252) */
   --soft-black: #1f2126;
+  /* (31, 33, 38) */
   --lightest-green: #43e9b1;
+  /* (67, 233, 178) */
   --light-green: #12cf99;
+  /* (18, 207, 153) */
   --green: #006f42;
+  /* (0, 111, 67) */
   --deep-green: #003d16;
+  /* (0, 61, 22) */
   --deeper-green: #004c23;
+  /* (0, 76, 35) */
   --deepest-green: #06291d;
+  /* (6, 41, 29) */
   --ti-cursor-color: var(--deepest-green);
   --swiper-theme-color: var(--soft-black);
 }
@@ -623,7 +631,8 @@ table .d-day > p:nth-of-type(2) {
 .account_groom_header, .account_groom_content,
 .account_bride_header, .account_bride_content {
   height: 10vw;
-  background-color: #f5fffd;
+  /* background-color: #f5fffd; */
+  background-color: rgba(0, 111, 66, 0.05);
 }
 
 .account_groom_header,
@@ -666,6 +675,7 @@ table .d-day > p:nth-of-type(2) {
   max-height: 0;
   overflow: hidden;
   transition: 0.3s ease-out;
+  border-top: 1px solid var(--soft-white);
 }
 
 .account_groom_content.open,
@@ -675,6 +685,11 @@ table .d-day > p:nth-of-type(2) {
 
 .account_groom_container {
   margin-bottom: 3vw;
+}
+
+.account_num + button {
+  background-color: rgba(0, 76, 35, 0.05);
+  border-radius: 10%;
 }
 
 @media screen and (min-width : 768px) {
