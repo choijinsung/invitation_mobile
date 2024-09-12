@@ -65,7 +65,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 140vw;
+  height: 70vw;
 }
 
 .intro_img_container {
@@ -704,7 +704,7 @@ table .d-day > p:nth-of-type(2) {
   }
 
   #intro {
-    height : 70vw;
+    height : 35vw;
   }
 
   .intro_date_container > p {
