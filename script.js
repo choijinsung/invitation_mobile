@@ -66,6 +66,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  const accountGroomFatherHeader = document.querySelector('.account_groom_father_header');
+  const accountGroomFatherContent = document.querySelector('.account_groom_father_content');
+  const arrowGroomFather = document.querySelector('.arrow-groom-father');
+
+  accountGroomFatherHeader.addEventListener('click', function() {
+    const isOpen = accountGroomFatherContent.classList.contains('open');
+
+    if (isOpen) {
+      accountGroomFatherContent.classList.remove('open');
+      arrowGroomFather.classList.remove('fa-chevron-up');
+      arrowGroomFather.classList.add('fa-chevron-down');
+    } else {
+      accountGroomFatherContent.classList.add('open');
+      arrowGroomFather.classList.remove('fa-chevron-down');
+      arrowGroomFather.classList.add('fa-chevron-up');
+    }
+  });
+
   const accountBrideHeader = document.querySelector('.account_bride_header');
   const accountBrideContent = document.querySelector('.account_bride_content');
   const arrowBride = document.querySelector('.arrow-bride');
@@ -81,6 +99,24 @@ document.addEventListener('DOMContentLoaded', () => {
       accountBrideContent.classList.add('open');
       arrowBride.classList.remove('fa-chevron-down');
       arrowBride.classList.add('fa-chevron-up');
+    }
+  });
+
+  const accountBrideMotherHeader = document.querySelector('.account_bride_mother_header');
+  const accountBrideMotherContent = document.querySelector('.account_bride_mother_content');
+  const arrowBrideMother = document.querySelector('.arrow-bride-mother');
+
+  accountBrideMotherHeader.addEventListener('click', function() {
+    const isOpen = accountBrideMotherContent.classList.contains('open');
+
+    if (isOpen) {
+      accountBrideMotherContent.classList.remove('open');
+      arrowBrideMother.classList.remove('fa-chevron-up');
+      arrowBrideMother.classList.add('fa-chevron-down');
+    } else {
+      accountBrideMotherContent.classList.add('open');
+      arrowBrideMother.classList.remove('fa-chevron-down');
+      arrowBrideMother.classList.add('fa-chevron-up');
     }
   });
 
@@ -106,6 +142,16 @@ function copyGroomAccount() {
 function copyBrideAccount() {
   // 복사
  navigator.clipboard.writeText("우리 1005-604-094903");
+}
+
+function copyGroomFatherAccount() {
+  // 복사
+  navigator.clipboard.writeText("신한 110-002-615950");
+}
+
+function copyBrideMotherAccount() {
+  // 복사
+ navigator.clipboard.writeText("신한 110-024-842066");
 }
 
 function diffDay() {
