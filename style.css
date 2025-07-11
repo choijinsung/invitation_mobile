@@ -65,7 +65,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vw;
+  height: 60vw;
 }
 
 .intro_img_container {
@@ -74,7 +74,6 @@ button {
 }
 
 .intro_img_container > img {
-  aspect-ratio: 1.5;
   width: 90%;
 }
 
