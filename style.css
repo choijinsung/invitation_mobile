@@ -76,6 +76,7 @@ button {
 .intro_img_container > img {
   width: 90%;
   height: auto;
+  display: block;
 }
 
 #calendar, #location, #gallery, #account {
