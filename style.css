@@ -76,7 +76,6 @@ button {
 .intro_img_container > img {
   aspect-ratio: 1.5;
   width: 90%;
-  height: auto;
 }
 
 #calendar, #location, #gallery, #account {
